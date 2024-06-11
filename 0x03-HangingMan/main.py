@@ -92,7 +92,7 @@ def hangman():
 
 
 def guess():
-    name = input("Enter your name")
+    name = input("Enter your name ? ")
     print("Welcome" + name)
     print("------------------")
     print('Try to guess the word in less than 18 attempts ')

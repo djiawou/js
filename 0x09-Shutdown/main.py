@@ -6,11 +6,11 @@
 
 def systemOffRestart():
     import os
-    print("enter r for restart")
-    print("enter s for shutdown")
-    print("enter any key for exot")
+    print("enter r for restart ")
+    print("enter s for shutdown ")
+    print("enter any key for exot ")
 
-    option = input("enter your option")
+    option = input("enter your option ")
     if option == "r":
         os.system('shutdown /r')
     elif option == "s":
